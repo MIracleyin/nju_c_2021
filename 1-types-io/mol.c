@@ -12,5 +12,8 @@ int main() {
   /*
    * %g: %f or %e .n save 5 long
    */
+  /*
+   * INT_MIN: #include <limits.h>
+   */
   printf("%.3e\n%.5g\n", quantity, quantity);
 }
