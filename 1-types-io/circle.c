@@ -6,7 +6,7 @@
 
 int main(){
   /*
-   * const: constant
+   * const: constant, ps: PI is a Literal constants
    */
   const double PI = 3.1415926;
   int radius = 10; // introduce a variable called radius. is also a definition.
