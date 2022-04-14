@@ -9,7 +9,19 @@ int main(){
    * const: constant, ps: PI is a Literal constants
    */
   const double PI = 3.1415926;
-  int radius = 10; // introduce a variable called radius. is also a definition.
+  /*
+   * &: address-of operator
+   * %d: skip the white-spaces, than identify an integer
+   * %lf: skip the white-spaces, then identify a floating-point number
+   *  and assign it to a variable of double type
+   * count = scanf(...): the number of matched items
+   */
+  double radius; // introduce a variable called radius. is also a definition.
+
+  if (scanf("%lf", &radius) == 1) {
+    printf("radius = %f\n", radius);
+  }
+
   double circumference = 0;
   /*
    * assignment statement
