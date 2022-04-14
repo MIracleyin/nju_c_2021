@@ -14,14 +14,6 @@ int main() {
 
   int min = a >= b ? b : a; // Do not use to much!
 
-//  int min = 0;
-//  if (a >= b) { // non-zero numbers are treated as true
-//    min = b;
-//  } else {
-//    min = a;
-//  }
-
-
   printf("min{%d,%d} = %d\n", a, b, min);
 
 }
