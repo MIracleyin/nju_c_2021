@@ -1,3 +1,6 @@
 [submodule "hw/1-types-io"]
 	path = hw/1-types-io
 	url = https://github.com/MIracleyin/1-types-io.git
+[submodule "hw/2-if-for-array"]
+	path = hw/2-if-for-array
+	url = https://github.com/MIracleyin/2-if-for-array.git
