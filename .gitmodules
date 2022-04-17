@@ -1,9 +1,0 @@
-[submodule "hw/1-types-io"]
-	path = hw/1-types-io
-	url = https://github.com/courses-at-nju-by-hfwei/1-types-io.git
-[submodule "hw/2-if-for-array"]
-	path = hw/2-if-for-array
-	url = https://github.com/courses-at-nju-by-hfwei/2-if-for-array.git
-[submodule "hw/3-for-a-while"]
-	path = hw/3-for-a-while
-	url = https://github.com/courses-at-nju-by-hfwei/3-for-a-while.git
