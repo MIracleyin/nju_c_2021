@@ -7,7 +7,8 @@ set(CMAKE_C_STANDARD 11)
 #add_subdirectory(1-types-io)
 #add_subdirectory(2-for-if-array)
 #add_subdirectory(3-for-a-whila)
-add_subdirectory(4-loops)
+#add_subdirectory(4-loops)
+add_subdirectory(5-function)
 
 # homework
 #add_subdirectory(hw/1-types-io)
