@@ -23,7 +23,6 @@ int main() {
   /*
    * (extended) board
    */
-
   int old_board[SIZE + 2][SIZE + 2];
   for (int row = 0; row < SIZE + 2; row++) {
     for (int col = 0; col < SIZE + 2; col++) {
