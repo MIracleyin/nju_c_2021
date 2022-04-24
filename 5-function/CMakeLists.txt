@@ -11,4 +11,6 @@ add_executable(binary-search binary-search.c)
 
 add_executable(merge merge.c)
 
-add_executable(selection-sort.c)
+add_executable(selection-sort selection-sort.c)
+
+add_executable(palindrome palindrome.c)
