@@ -1,7 +1,7 @@
 //
 // Created by yin on 4/14/22.
 //
-
+#include <stdio.h>
 
 int main() {
   int year = 0;
