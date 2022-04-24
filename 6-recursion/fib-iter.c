@@ -5,17 +5,20 @@
 #define LEN 100
 
 int main() {
-  long long fibs[LEN] = {0, 1};
-
   int n;
   scanf("%d", &n);
 
-  for (int i = 2; i <= n; i++) {
-    fibs[i] = fibs[i - 1] + fibs[i - 2];
-  }
+  long long fib1 = 0;
+  long long fib2 = 1;
+//  printf("%lld %lld", fib1, fib2);
 
-  for (int i = 0; i <= n; i++) {
-    printf("%lld ", fibs[i]);
+  long long fib3;
+  for (int i = 2; i <= n; i++) {
+    fib3 = fib1 + fib2;
+    printf("%lld", fib3);
   }
+  fib1 = fib2;
+  fib2 = fib3;
+
   return 0;
 }

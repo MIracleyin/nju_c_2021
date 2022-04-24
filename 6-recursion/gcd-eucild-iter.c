@@ -16,14 +16,13 @@ int main() {
 }
 
 int GCDEuclid(int a, int b) {
-  if (a == b) {
-    return a;
+  while (a != b) {
+    if (a > b) {
+      a = a - b;
+    } else {
+      b = b - a;
+    }
+
   }
-
-  if (a > b) {
-    return GCDEuclid(a - b, b);
-  }
-
-  return GCDEuclid(a, b - a);
-
+  return a;
 }

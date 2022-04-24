@@ -17,9 +17,12 @@ int main() {
 }
 
 int GCD(int a, int b) {
-  if (b == 0) {
-    return a;
+  while (b != 0) {
+    int tmp = a;
+    a = b;
+    b = tmp % b;
   }
 
-  return GCD(b, a % b);
+  return a;
+
 }
