@@ -17,3 +17,5 @@ add_executable(gcd-eucild-iter gcd-eucild-iter.c)
 add_executable(gcd-euclidean-iter gcd-euclidean-iter.c)
 
 add_executable(bsearch-re bsearch-re.c)
+
+add_executable(merge-sort merge-sort.c)
