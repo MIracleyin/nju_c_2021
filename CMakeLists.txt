@@ -11,8 +11,8 @@ set(CMAKE_C_STANDARD 11)
 #add_subdirectory(4-loops)
 #add_subdirectory(5-function)
 #add_subdirectory(6-recursion)
-add_subdirectory(7-data-types)
+#add_subdirectory(7-data-types)
 
 # homework
 #add_subdirectory(hw/1-types-io)
-#add_subdirectory(hw/2-if-for-array)
+add_subdirectory(hw/2-if-for-array)
