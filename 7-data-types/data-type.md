@@ -1,3 +1,9 @@
+## Integral Types
+- Signed
+- Unsigned
+- Integral Promotiom
+- 
+
 ## Floating-point Numbers
 - float y = 5.0F
   - %f
